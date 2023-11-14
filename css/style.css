@@ -4,15 +4,64 @@
     padding: 0;
     box-sizing: border-box;
 }
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 /* generale */
 
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+nav ul li{
+    display: inline-block;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding:  20px;
+}
+.bottone{
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    color:black;
+}
 
 /* header */
+header section{
+   background-color: #0084fd;
+}
+.container .bar-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+.bar-nav nav{
+    display: none;
+}
 
 /* main */
 
 /* footer */
 
 /* responsive */
+/* tablet */
+@media screen and (min-width: 768px) {
+    
+}
+/* destop */
+@media screen and (min-width: 992px) {
+    .bar-nav nav{
+        display: block;
+    }
 
+
+    .bar-nav .menu{
+        display: none;
+    }
+}

@@ -30,7 +30,13 @@ nav ul li a{
     border-radius: 20px;
     color:black;
 }
-
+img{
+    width: 100%;
+    
+}
+.bg-color{
+    background-color: #b5ddff;
+}
 /* header */
 header section{
    background-color: #0084fd;
@@ -49,16 +55,26 @@ header section{
     flex-wrap: wrap;
     margin-left: -10px;
     margin-right: -10px;
+    margin-top: 20px;
 }
 .col-100{
     width: calc(100% - 20px);
     margin-left: 10px;
     margin-right: 10px;
+    border-radius: 20px;
 }
 
 /* main */
 
-
+.card-dim{
+    text-align: center;
+    padding: 20px;
+}
+.card-dim i,
+.card-dim h3{
+    color: #0084fd;
+    margin-bottom: 15px;
+}
 
 /* footer */
 
@@ -85,4 +101,9 @@ header section{
     .bar-nav .menu{
         display: none;
     }
+    .card{
+        display: flex;
+        padding: 15px 15px 0 15px;
+    }
+    
 }

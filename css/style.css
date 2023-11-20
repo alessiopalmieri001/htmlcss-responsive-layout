@@ -179,7 +179,14 @@ header section{
 
 
 /* footer */
-
+.black{
+    background-color: #333333;
+}
+footer > .container > p{
+    text-align: center;
+    padding: 30px;
+    color: white;
+}
 /* responsive */
 /* tablet */
 @media screen and (min-width: 768px) {

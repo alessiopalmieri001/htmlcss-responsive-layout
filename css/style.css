@@ -125,6 +125,34 @@ header section{
 .card-benefits div {
     display: inline-block;
 }
+.col-70{
+    width: 70%;
+    padding-top: 30px;
+}
+.col-70 > p{
+    margin-top: 20px;
+    font-size:1.3em;
+}
+.col-70 > *{
+    padding: 20px 0;
+}
+
+.col-30{
+    width: 30%;
+    padding-top: 30px;
+}
+.col-30 > div > img{
+    width: 100%;
+    width: 200px;
+    height: 200px ;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.col-30 > *{
+   padding: 20px 0;
+}
+
+
 
 /* footer */
 

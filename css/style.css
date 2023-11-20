@@ -151,6 +151,30 @@ header section{
 .col-30 > *{
    padding: 20px 0;
 }
+.copyright,
+.copyright-right{
+    display: flex;
+        justify-content: center;
+}
+.copyright > *{
+    padding: 20px;
+}
+.copyright-right > ul {
+    display: flex;
+    
+}
+.copyright-right > ul > li {
+    padding: 0 20px;
+    
+}
+.center{
+    text-align: center;
+}
+.center > *{
+    padding: 15px 0;
+}
+
+
 
 
 

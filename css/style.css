@@ -6,6 +6,7 @@
 }
 html{
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
 }
 
 /* generale */
@@ -85,6 +86,31 @@ header section{
 .col-50{
     width: 50%;
 
+}
+.testimonials{
+    text-align: center;
+    padding: 20px;
+}
+.dimensionamento-card-t{
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.dimensionamento-card-t > div{
+    padding-right: 20px;
+}
+.dimensionamento-card-t > div:last-of-type{
+    padding-top: 50px;
+}
+.dimensionamento-card-t > div:last-of-type > *{
+    font-size:  1.5em;
+}
+.dimensionamento-card-t > div > img{
+    width: 100%;
+    width: 200px;
+    height: 200px ;
+    border-radius: 50%;
+    object-fit: cover;
 }
 
 /* footer */

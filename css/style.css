@@ -33,9 +33,16 @@ nav ul li a{
 img{
     width: 100%;
     
+    display: block;
+    max-width: 200px;
 }
+    
+
 .bg-color{
     background-color: #b5ddff;
+}
+.violet{
+    background-color: #9593e6;
 }
 /* header */
 header section{
@@ -75,6 +82,10 @@ header section{
     color: #0084fd;
     margin-bottom: 15px;
 }
+.col-50{
+    width: 50%;
+
+}
 
 /* footer */
 
@@ -105,5 +116,7 @@ header section{
         display: flex;
         padding: 15px 15px 0 15px;
     }
-    
+    .card-right img{
+        max-width: 400px;
+    }
 }
